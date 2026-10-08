@@ -1,0 +1,35 @@
+{
+  "n_cases": 308,
+  "n_voxels": 7214226540,
+  "tp": 5428498,
+  "fp": 4863322,
+  "fn": 938773,
+  "tn": 7202995947,
+  "mIoU": 0.7412810664113395,
+  "IoU_fg": 0.4833669958478595,
+  "IoU_bg": 0.9991951369748194,
+  "Accuracy": 0.9991957426110991,
+  "Precision": 0.5274575342359272,
+  "Recall": 0.8525627384165053,
+  "Dice_micro": 0.651715990986543,
+  "Dice_per_case": {
+    "mean": 0.48983501398715934,
+    "std": 0.28292536669065826,
+    "min": 0.0,
+    "median": 0.519507497549057,
+    "max": 0.9466618895530701,
+    "p05": 0.014276181999593974,
+    "p25": 0.23510216176509857,
+    "p75": 0.748238667845726,
+    "p95": 0.8525622338056564
+  },
+  "_meta": {
+    "config": "configs/segresnet_wide_sw_ce10.yaml",
+    "checkpoint": "checkpoints/segresnet_wide_sw_ce10/model.pth",
+    "eval_split": "test",
+    "epoch": -1,
+    "model_name": "segresnet",
+    "params": 82637282,
+    "bbox_csv": "outputs/bboxes_roi_swin_sw_test.csv"
+  }
+}

@@ -1,0 +1,9 @@
+# Same versions as the training container (container/requirements_train.txt);
+# prefer the container — see README.
+torch>=2.0
+monai==1.4.0
+einops>=0.7.0
+numpy>=1.24
+scipy>=1.10
+pyyaml>=6.0
+tensorboard>=2.14

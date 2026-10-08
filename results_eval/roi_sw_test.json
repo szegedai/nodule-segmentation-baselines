@@ -1,0 +1,33 @@
+{
+  "n_pixels": 9239750421,
+  "n_slices": 40505,
+  "tp": 510431485,
+  "fp": 9556611,
+  "fn": 10750804,
+  "tn": 8709011521,
+  "mIoU": 0.9797055602625518,
+  "IoU_fg": 0.9617374663888402,
+  "IoU_bg": 0.9976736541362635,
+  "Accuracy": 0.9978021684488527,
+  "Precision": 0.9816214811963695,
+  "Recall": 0.9793722767889375,
+  "Dice_micro": 0.9804955891057159,
+  "Dice_per_slice": {
+    "mean": 0.9474819458999478,
+    "std": 0.165029960211428,
+    "min": 0.0,
+    "median": 0.9880924820899963,
+    "max": 1.0,
+    "p05": 0.8268410444259644,
+    "p95": 1.0
+  },
+  "_meta": {
+    "config": "configs/roi_sw.yaml",
+    "checkpoint": "checkpoints/roi_sw/model.pth",
+    "split": "test",
+    "epoch": -1,
+    "val_dice_at_save": null,
+    "model_name": "segresnet",
+    "spatial_dims": 2
+  }
+}

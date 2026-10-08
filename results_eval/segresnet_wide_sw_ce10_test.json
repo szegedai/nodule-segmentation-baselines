@@ -1,0 +1,35 @@
+{
+  "n_cases": 308,
+  "n_voxels": 7075577562,
+  "tp": 5466710,
+  "fp": 4567317,
+  "fn": 911634,
+  "tn": 7064631901,
+  "mIoU": 0.7493329415476887,
+  "IoU_fg": 0.49944082865347283,
+  "IoU_bg": 0.9992250544419046,
+  "Accuracy": 0.9992256531778515,
+  "Precision": 0.5448171506813765,
+  "Recall": 0.8570735601591887,
+  "Dice_micro": 0.6661694401131927,
+  "Dice_per_case": {
+    "mean": 0.4885840880977105,
+    "std": 0.2863027459742638,
+    "min": 0.0,
+    "median": 0.5226389467716217,
+    "max": 0.9466618895530701,
+    "p05": 0.013950663711875677,
+    "p25": 0.2273646555840969,
+    "p75": 0.7469984441995621,
+    "p95": 0.860669660568237
+  },
+  "_meta": {
+    "config": "configs/segresnet_wide_sw_ce10.yaml",
+    "checkpoint": "checkpoints/segresnet_wide_sw_ce10/model.pth",
+    "eval_split": "test",
+    "epoch": -1,
+    "model_name": "segresnet",
+    "params": 82637282,
+    "bbox_csv": "outputs/bboxes_gt_test.csv"
+  }
+}

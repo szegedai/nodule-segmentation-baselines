@@ -1,0 +1,11 @@
+# training / evaluation outputs
+checkpoints/
+runs/
+outputs/
+logs/
+
+# Python and editors
+__pycache__/
+*.pyc
+.venv/
+*.swp

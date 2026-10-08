@@ -1,0 +1,35 @@
+{
+  "n_cases": 308,
+  "n_voxels": 7075577562,
+  "tp": 5250946,
+  "fp": 6624885,
+  "fn": 1127398,
+  "tn": 7062574333,
+  "mIoU": 0.7013610837185398,
+  "IoU_fg": 0.4038186207441244,
+  "IoU_bg": 0.9989035466929552,
+  "Accuracy": 0.9989043603957316,
+  "Precision": 0.44215398484535523,
+  "Recall": 0.8232459710545559,
+  "Dice_micro": 0.5753145239376746,
+  "Dice_per_case": {
+    "mean": 0.45704885816062474,
+    "std": 0.2697951851361677,
+    "min": 0.0,
+    "median": 0.4969273954629898,
+    "max": 0.9371131062507629,
+    "p05": 0.007701239455491306,
+    "p25": 0.24840280413627625,
+    "p75": 0.6907386183738708,
+    "p95": 0.8228878498077392
+  },
+  "_meta": {
+    "config": "configs/dynunet_sw_ce10.yaml",
+    "checkpoint": "checkpoints/dynunet_sw_ce10/model.pth",
+    "eval_split": "test",
+    "epoch": -1,
+    "model_name": "dynunet",
+    "params": 16538530,
+    "bbox_csv": "outputs/bboxes_gt_test.csv"
+  }
+}
