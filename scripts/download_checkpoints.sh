@@ -7,11 +7,11 @@ set -euo pipefail
 
 # Pinned to the published revisions, so the same weights are fetched every time.
 declare -A REPOS=(
-  [roi_sw]=HalmosiL/roi-segresnet-2d-sw@33e3e95dfde7ba214905781ea4d14211770e29a9
-  [roi_swin_sw]=HalmosiL/roi-swinunetr-2d-sw@30404e64c577fd3efaaa09c7e4dbb1477f20aac9
-  [segresnet_small_sw_ce10]=HalmosiL/nodule-segresnet-3d-small-sw@76924d77831ea8a760455ef1fb322a544f86ae32
-  [segresnet_wide_sw_ce10]=HalmosiL/nodule-segresnet-3d-wide-sw@d951908da981bd3601184eb56d14cab7e062aabc
-  [dynunet_sw_ce10]=HalmosiL/nodule-dynunet-3d-sw@0b4fadc90ebcb304fa66891f7fa98800f276360c
+  [roi_sw]=HalmosiL/roi-segresnet-2d-sw@6be0cc75601493054b07de83393e00a88ee53077
+  [roi_swin_sw]=HalmosiL/roi-swinunetr-2d-sw@eb867630dfad2ab02614c5b44676ded4819e9339
+  [segresnet_small_sw_ce10]=HalmosiL/nodule-segresnet-3d-small-sw@046317ff53bcc127f17ff5e715a63714685be2ba
+  [segresnet_wide_sw_ce10]=HalmosiL/nodule-segresnet-3d-wide-sw@a8d8796f2149d101a4ae101210f25c5f50c692e2
+  [dynunet_sw_ce10]=HalmosiL/nodule-dynunet-3d-sw@7c35176ace93e625ee9fbe561a6c88379bb597aa
 )
 
 for name in roi_sw roi_swin_sw segresnet_small_sw_ce10 segresnet_wide_sw_ce10 dynunet_sw_ce10; do
